@@ -8,6 +8,9 @@
           <h2>by Filip Pelkowski</h2>
         </div>
     </div>
+
+  <button routerLink="/adm_dashboard">Panel Administratora</button>
+
     <div style="display: flex; justify-content: center;">
         <input type="text" [(ngModel)]="this.mainService.productsRequest.name">
         <button (click)="this.mainService.getProducts(this.mainService.productsRequest)" routerLink="/products">Szukaj Produktu</button>
