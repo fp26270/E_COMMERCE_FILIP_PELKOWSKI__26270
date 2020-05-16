@@ -1,0 +1,16 @@
+<head>
+  <link rel="stylesheet" href="C:\Users\48537\Desktop\E_COMMERCE_FILIP_PELKOWSKI__26270\myshop\src\app\components\panel-top\panel-top.component.scss">
+</head>
+<div>
+    <div class ="img-container">
+        <div class = "inner-container">
+          <h1>Sklep z Softlerem</h1>
+          <h2>by Filip Pelkowski</h2>
+        </div>
+    </div>
+    <div style="display: flex; justify-content: center;">
+        <input type="text" [(ngModel)]="this.mainService.productsRequest.name">
+        <button (click)="this.mainService.getProducts(this.mainService.productsRequest)" routerLink="/products">Szukaj Produktu</button>
+    </div>
+</div>
+

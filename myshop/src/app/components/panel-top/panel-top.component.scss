@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    height: 100%;
+}
+body{
+    width: 100%;
+}
+.img-container{
+    background-image: url(img/5.jpg);
+    margin-top:25px;
+    margin-left:25px;
+    margin-right:25px;
+    margin-bottom:25px;
+    padding-top:90px;
+    padding-bottom:90px;
+    opacity: 0.8;
+    filter: alpha(opacity=40);
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 100%;
+}
+.inner-container{
+    text-align: center;
+    width: 100%;
+    color:green;
+}
+h1{
+    font-size: 7em;
+    font-family: "Shadows into Light", sans-serif;
+    text-align: center;
+    font-weight:750;
+    margin-top: -17px;
+}
+h2 {
+    margin-top: -17px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.7em;
+    text-align: center;
+    font-weight:700;
+}
