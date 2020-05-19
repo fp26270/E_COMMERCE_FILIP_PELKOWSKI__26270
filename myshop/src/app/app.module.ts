@@ -13,6 +13,8 @@ import { DashboardComponent } from './components/admin/dashboard/dashboard.compo
 import { MenuComponent } from './components/admin/menu/menu.component';
 import { AdmProductsComponent } from './components/admin/adm-products/adm-products.component';
 
+import { ChartsModule } from 'ng2-charts';
+
 const appRoutes: Routes = [
 
   { path: 'cart', component: CartComponent },
@@ -39,6 +41,8 @@ const appRoutes: Routes = [
     AppRoutingModule,
     FormsModule,
     RouterModule.forRoot(appRoutes),
+    ChartsModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
